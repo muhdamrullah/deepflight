@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+  <!--meta http-equiv="refresh" content="20"-->
+<head>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="styles/animate.css"/>
+<link rel="stylesheet" type="text/css" href="styles/style2.css"/>
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+  
+<body>   
+<!-- Main page content -->
+<video id="webcam_preview" class="hidden" autoplay></video>
+    
+<img id="img_snapshot" src="" class="hidden"/>
+
+<div class="container">
+
+  <img class = "logo" src = "img/sia.png" width="15%" height="15%" />
+  <h1>Singapore Airlines Mood Matcher</h1>
+  <p>
+    Let us recommend what you should watch for your in-flight entertainment.
+  </p>
+  <h1 id="status" class="animated flash">Detecting ...</h1>
+
+  <div class="beer_container">
+    <div class="row__inner">
+
+      <div class="tile" style="">
+        <div class="tile__media">
+          <img class="tile__img" id="male_millenial" src="img/SR.jpg" alt=""  />
+        </div>
+        <div class="tile__details">
+          <div class="tile__title">
+            The Shawshank Redemption
+          </div>
+        </div>
+      </div>
+      <div class="beer-comment" id="comment-male-millenial">
+        <p style="vertical-align: middle">
+          The story of an innocent man’s stay and eventual escape from prison despite all obstacles in his way. Inspiring!
+        </p>  
+      </div>
+
+      <div class="tile">
+        <div class="tile__media">
+          <img class="tile__img" id = "female_millenial" src="img/UP.jpg" alt=""  />
+        </div>
+        <div class="tile__details">
+          <div class="tile__title">
+            Up
+          </div>
+        </div>
+      </div>
+      <div class="beer-comment" id="comment-female-millenial">
+      <p style="vertical-align: middle">
+      A feel good movie for everyone!
+      </p>
+    </div>
+
+      <div class="tile">
+        <div class="tile__media">
+          <img class="tile__img" id= "female_traditional" src="img/NO.jpg" alt=""  />
+        </div>
+        <div class="tile__details">
+          <div class="tile__title">
+            The Notebook
+          </div>
+        </div>
+      </div>
+      <div class="beer-comment" id="comment-female-traditional">
+      <p style="vertical-align: middle">
+        Every great love starts with a story. This is one of them.
+              </p>
+    </div>
+
+      <div class="tile">
+        <div class="tile__media">
+          <img class="tile__img" id = "male_traditional" src="img/CI.jpg" alt=""  />
+        </div>
+        <div class="tile__details">
+          <div class="tile__title">
+            Central Intelligence
+          </div>
+        </div>
+      </div>
+      <div class="beer-comment" id="comment-male-traditional">
+      <p style="vertical-align: middle">
+        Who says bullied geeks can't make it big?
+      </p>  
+    </div>
+
+  </div>
+</div>
+
+    
+<!-- Load jquery and FACE libraries -->    
+<script src="scripts/FACE-1.0.js"></script>
+<script src="scripts/jquery.min.js"></script>
+      
+<!-- Page control -->
+<script src="scripts/logic.js"></script>         
+</body>
+</html>
