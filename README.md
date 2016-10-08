@@ -15,3 +15,4 @@ $ sudo docker pull muhdamrullah/deepflight
 $ sudo docker run -it -p 8000:8000 muhdamrullah/deepflight python -m SimpleHTTPServer 8000
 
 ```
+Open a web browser and go to http://locahost:8000
