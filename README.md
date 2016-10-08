@@ -1,4 +1,4 @@
-# **Deepflight - A method to use containers to generate deep learning models and build emotion recognition models** 
+# **Deepflight - Containers for deep learning models & emotion recognition** 
 Code Example
 
 This webapp is part of the __*SIA Open Challenge*__ and the __*RedHat Open Challenge*__
